@@ -20,7 +20,7 @@ config to set up a CentOS 8 VM with Vagrant
 1. Clone the Baseline repo into the directory with the Vagrantfile
 2. Install Ansible globally with ````pip3````
 2. In the Vagrantfile, look for ````ansible.playbook````. You can change the value to the path of the playbook you want to run.
-3. Run the playbook against the VM with ````ansible provision````
+3. Run the playbook against the VM with ````vagrant provision````
   - Vagrant automatically creates a host file for the VM.
   - For more details, look at [Vagrant Provisioning](https://www.vagrantup.com/docs/provisioning/ansible) or [Using Ansible and Vagrant](https://docs.ansible.com/ansible/2.3/guide_vagrant.html)
 5. To use the ````extra_vars```` option in Ansible, edit the ````vars.yaml```` file
